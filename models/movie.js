@@ -1,5 +1,5 @@
 import { readJSON } from '../utils.js';
-import { randomUUID } from 'crypto';
+import { randomUUID } from 'node:crypto';
 
 // como leer un json en ESModules recomendado por ahora
 const movies = readJSON('./movies.json');
